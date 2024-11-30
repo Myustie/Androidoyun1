@@ -1,0 +1,16 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pagination a, .pagination span {
+    margin: 0 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+}
+.pagination .current {
+    background-color: #333;
+}
