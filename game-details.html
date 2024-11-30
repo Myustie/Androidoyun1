@@ -11,27 +11,23 @@
         <h1>Game Title</h1>
     </header>
     <main>
+        <!-- Oyun Açıklama Kısmı -->
         <section class="details">
-            <p><strong>Description:</strong> Full game description goes here.</p>
-            <a href="download-link" class="btn">Download</a>
+            <p><strong>Description:</strong> This is a detailed description of the game. It includes all the exciting features and gameplay information you need to know.</p>
+            <a href="https://download-link.com" class="btn">Download</a>
         </section>
-        <!-- Yorumlar -->
+
+        <!-- Yorumlar ve Yorum Formu -->
         <section class="comments">
             <h2>Comments</h2>
-            <!-- Mevcut Yorumlar -->
-            <div class="comment">
-                <p><strong>User:</strong> This game is amazing!</p>
-                <button class="reply-btn">Reply</button>
-                <div class="replies">
-                    <p><strong>Admin:</strong> Thank you!</p>
-                </div>
+            <div id="comment-list">
+                <!-- Yorumlar burada dinamik olarak görünecek -->
             </div>
-            <!-- Yorum Yapma Formu -->
             <h3>Leave a Comment</h3>
-            <form class="comment-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="comment" placeholder="Your Comment" required></textarea>
+            <form id="comment-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="comment" placeholder="Your Comment" required></textarea>
                 <button type="submit">Submit</button>
             </form>
         </section>
@@ -39,5 +35,6 @@
     <footer>
         <p>&copy; 2024 Your Name</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
